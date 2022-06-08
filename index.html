@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+        <h1>Basar's Favourite Song</h1>
+        <title>Basar Top Song</title>
+    </head>
+    <body>
+        <div class="container" id="container">
+            <div class="video">
+                <video id="video" muted loop>
+                    <source src="assets/aesthetic couple.mp4"></source>
+    
+                </video>
+            </div>
+            <div class="music-author">
+                <h2>Medina</h2>
+                <h3>Jah Khalib</h3>
+            </div>
+            <div class="progress-bar">
+                <input type="range" id="progressBar" min="0" max="" value="0" />
+            </div>
+            <div class="track-time">
+                <div id="currentTime"></div>
+                <div id="durationTime"></div>
+            </div> 
+            <div class="playpause">
+                <i class="fa fa-play fa-5" id="playpause"></i>
+            </div>
+            <audio src="assets/jahkhalibmedina.mp3" id="audio"></audio>
+            <input type="range" name="volume" id="volume" min="0" max="100" value="100"/>
+
+        </div>
+        <script src="index.js"></script>
+        
+
+        
+    </body>
+</html>

@@ -1,0 +1,111 @@
+body{
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    margin-top: 25px;
+}
+h3{
+  margin-top: 5px;
+}
+.fa{
+  font-size: 40px;
+}
+video{
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.music-author{
+    text-align: center;
+}
+.playpause{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.progress-bar {
+    grid-area: four;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+  }
+  
+  #progressBar {
+    appearance: none;
+    height: 5px;
+    background: rgba(128, 128, 128, 0.4);
+    width: 57.5%;
+    outline: none;
+    border-radius: 30px;
+  }
+  
+  #progressBar::-webkit-slider-thumb {
+    appearance: none;
+    height: 11px;
+    width: 11px;
+    outline: none;
+    background: black;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .track-time {
+    grid-area: five;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* border: 1px solid red; */
+  }
+  
+  #currentTime {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    color: black;
+  }
+  
+  #durationTime {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    color: black;
+    text-shadow: 0 0 15px white;
+  }
+  #volume{
+    appearance: none;
+    height: 5px;
+    background: rgba(128, 128, 128, 0.4);
+    width: 57.5%;
+    outline: none;
+    border-radius: 30px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 45px;
+  }
+  #volume::-webkit-slider-thumb {
+    appearance: none;
+    height: 11px;
+    width: 11px;
+    outline: none;
+    background: black;
+    border-radius: 30px;
+    cursor: pointer;
+  }
